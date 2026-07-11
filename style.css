@@ -48,3 +48,38 @@
   font-family: "Inter", sans-serif;
 }
 
+/* middle side */
+.nav-links{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:40px;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links a{
+  text-decoration: none;
+  color: #575757;
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-links a:hover{
+  color: blue;
+}
+
+/* common btn */
+.common-btn{
+  padding: 8px 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  border: none;
+  background-color:#E8BA2E;
+  color:#000102;
+
+  font-size: 16px;
+  font-weight:700;
+  font-style: normal;
+}
