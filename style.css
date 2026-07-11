@@ -1,0 +1,18 @@
+/* global style */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font */
+.body{
+  font-family: "Host Grotesk", sans-serif;
+  font-style: normal;
+}
+
+/* display size */
+.container{
+  padding: 20px 8%;
+}
+
