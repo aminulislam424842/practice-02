@@ -164,3 +164,19 @@ body{
   font-weight: 800;
   color: #000102;
 }
+/* HOST CITIES SECTION */
+
+.host-cities-section .section-title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    color: #000102;
+    margin-bottom: 60px;
+}
+
+.host-cities-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
