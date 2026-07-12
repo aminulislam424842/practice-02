@@ -6,7 +6,7 @@
 }
 
 /* font */
-.body{
+body{
   font-family: "Host Grotesk", sans-serif;
   font-style: normal;
 }
@@ -17,14 +17,12 @@
 }
 
 /* navber */
-
-.header{
-  background-color: #ffffff;
-}
 .main-nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  background-color: #fff;
 
   position: fixed;
   top:0;
@@ -88,4 +86,25 @@
 }
 .common-btn:hover{
   background-color: yellowgreen;
+}
+
+/* banner */
+.hero-section {
+
+  background-image:linear-gradient(
+        rgba(0,0,0,.35),
+        rgba(0,0,0,.35)
+    ), url("../practice-02/assets/banner.png");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  padding: 180px 0% 20px;
+
+
 }
