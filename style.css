@@ -268,3 +268,16 @@ th{
   font-size: 16px;
   font-weight: 600;
 }
+.match{
+  color: #111C2D;
+  font-size: 16px;
+  font-weight: 700;
+}
+.venue{
+  color:#505F76;
+}
+.stage{
+  color: #111C2D;
+  font-size: 14px;
+  font-weight: 400;
+}
