@@ -99,13 +99,15 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 
+  border-radius: 10px;
+
   width: 100%;
   min-height: 100vh;
 
   display: flex;
   align-items: center;
   padding: 180px 0% 20px;
-
+  margin-bottom: 40;
 
 }
 
@@ -136,4 +138,29 @@ body{
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
+}
+
+.Tournament-Statistics{
+  background-color: #F4C430;
+  border: none;
+  margin: 40px 2%;
+}
+
+.Global-Impact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+.Global-Impact .sub-title{
+  font-size: 16px;
+  font-weight: 400;
+  color: #313131;
+  margin-bottom: 20px;
+}
+.Global-Impact p{
+  font-size: 72px;
+  line-height: 1.5;
+  font-weight: 800;
+  color: #000102;
 }
