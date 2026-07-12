@@ -339,3 +339,9 @@ th{
     margin-bottom: 10px;
     line-height: 28px;
 }
+
+.package-card .common-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
