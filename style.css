@@ -180,3 +180,44 @@ body{
     gap: 40px;
 }
 
+.city-card{
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.city-image{
+    width: 450px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 16px;
+    flex-shrink: 0;
+}
+
+.city-content{
+    flex: 1;
+}
+
+.city-title{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000102;
+}
+
+.city-description{
+    font-size: 16px;
+    line-height: 2;
+    color: #575757;
+    margin-bottom: 20px;
+}
+
+.city-features{
+    padding-left: 20px;
+    line-height: 1.8;
+    color: #313131;
+}
+
+.city-features li{
+    margin-bottom: 8px;
+}
