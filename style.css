@@ -281,3 +281,27 @@ th{
   font-size: 14px;
   font-weight: 400;
 }
+/* ==========================
+   TICKET PACKAGES
+========================== */
+
+.ticket-packages{
+    padding: 80px 8%;
+    background-color: #F8F8F8;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-description{
+    text-align: center;
+    font-size: 18px;
+    color: #575757;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
