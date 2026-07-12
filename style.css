@@ -70,7 +70,7 @@
 
 /* common btn */
 .common-btn{
-  padding: 8px 20px;
+  padding: 10px 22px;
   display: flex;
   gap: 10px;
   align-items: center;
@@ -78,8 +78,14 @@
   border: none;
   background-color:#E8BA2E;
   color:#000102;
+  border-radius: 10px;
 
   font-size: 16px;
   font-weight:700;
   font-style: normal;
+
+  cursor: pointer;
+}
+.common-btn:hover{
+  background-color: yellowgreen;
 }
