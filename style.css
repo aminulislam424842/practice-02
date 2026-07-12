@@ -245,3 +245,26 @@ body{
   color: #505F76;
   margin-bottom: 25px;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  border: 1px solid #000000;
+  padding: 14px;
+  text-align: center;
+}
+th{
+  background-color: #A73131;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.time{
+  color: #BA1A1A;
+  font-size: 16px;
+  font-weight: 600;
+}
