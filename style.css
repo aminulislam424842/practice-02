@@ -348,6 +348,12 @@ th{
 footer{
   background-color: #000102;
 }
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
 .footer-left-top{
   display: flex;
   gap: 8px;
@@ -363,4 +369,23 @@ footer{
   font-size: 20px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
+}
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.social-icons a:hover{
+   color: rgba(5, 48, 238, 0.76);
+}
+hr{
+    border: none;
+    border-top: 1px solid #575757;
+    margin-bottom: 15px;
 }
